@@ -5,20 +5,27 @@ This project explores a pathfinding algorithm for a simulated game environment. 
 
 ## Game Rules
 
-<div style="display: flex; align-items: center; justify-content: space-between;">
-    <div style="flex: 2; padding-right: 20px;">
-        The game is played on a 7x9 grid where a character starts in the middle of the field and has to complete exactly 15 steps without revisiting any cell or stepping out of the grid boundaries. The cells can be empty or contain prizes with different values (1, 2, or 3). The aim is to collect as many points as possible without reaching a dead end. If the path reaches a dead end (i.e., no further steps can be taken without breaking the rules), it is considered incomplete and non-viable.
+<table>
+<tr>
+<td>
+
+The game is played on a 7x9 grid where a character starts in the middle of the field and has to complete exactly 15 steps without revisiting any cell or stepping out of the grid boundaries. The cells can be empty or contain prizes with different values (1, 2, or 3). The aim is to collect as many points as possible without reaching a dead end. If the path reaches a dead end (i.e., no further steps can be taken without breaking the rules), it is considered incomplete and non-viable.
 
 ### Specific Rules:
 - The character starts at the center of the field.
 - Each move can be up, down, left, or right.
 - Stepping on an already visited cell is not allowed.
 - The path must be exactly 15 steps long.
-    </div>
-    <div style="flex: 1;">
-        <img src="https://raw.githubusercontent.com/IlyaRice/SurvivorIO_Path_finding/master/Outputs/00%20Example%20of%20path.png" width="100%">
-    </div>
-</div>
+
+</td>
+<td>
+
+<img src="https://raw.githubusercontent.com/IlyaRice/SurvivorIO_Path_finding/master/Outputs/00%20initial%20field.png" width="100%">
+
+</td>
+</tr>
+</table>
+
 
 ## Code Description
 This project includes several Python scripts encapsulated in a Jupyter Notebook that:
